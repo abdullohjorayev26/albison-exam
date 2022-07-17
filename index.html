@@ -7,8 +7,203 @@
     <title>Exam</title>
     <!-- LINK FOR STYLESHEET -->
     <link rel="stylesheet" href="./src/styles/styles.css">
+    <!-- LINK FOR GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <nav class="navbar container">
+        <a class="navbar-logo" href="./index.html">
+            <img src="./src/images/logo.svg" alt="Navbar logo" width="44" height="57">
+            <span class="navbar-logo-text">Artificial Intelligence</span>
+        </a>
+        <ul class="navbar-list">
+            <li class="list-item"><a class="item-link" href="#hero">Home</a></li>
+            <li class="list-item"><a class="item-link" href="#about">About</a></li>
+            <li class="list-item"><a class="item-link" href="#services">Services</a></li>
+            <li class="list-item"><a class="item-link" href="#blog">Blog</a></li>
+            <li class="list-item"><a class="item-link" href="#contact">Contact</a></li>
+        </ul>
+        <a class="main-button" href="#">Sign in</a>
+    </nav>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Hero -->
+        <section class="hero container" id="hero">
+            <div class="hero-content">
+                <div class="hero-main-content">
+                    <p class="hero-about">Next genaretion platform</p>
+                    <h1 class="hero-title">Artificial intelligence & Syber security</h1>
+                    <p class="hero-description">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                    <a class="main-button margin" href="#">Get Started</a>
+                    <a class="main-button" href="#">
+                        <img src="./src/images/right.svg" alt="Right button" width="27" height="26">
+                        <span class="main-button-text">Watch Video</span>
+                    </a>
+                </div>
+                <img class="hero-image" src="./src/images/hero.png" alt="Texnologiyalarni ko'rayotgan okaning rasmi" width="632" height="634" srcset="./src/images/hero.png 1x, ./src/images/hero@2x.png 2x">
+            </div>
+            <div class="hero-logos">
+                <a href="#">
+                    <img src="./src/images/logos-1.svg" alt="First logo" width="217" height="59">
+                </a>
+                <a href="#">
+                    <img src="./src/images/logos-2.svg" alt="Second logo" width="212" height="59">
+                </a>
+                <a href="#">
+                    <img src="./src/images/logos-3.svg" alt="Third logo" width="206" height="59">
+                </a>
+                <a href="#">
+                    <img src="./src/images/logos-4.svg" alt="Fourth logo" width="294" height="59">
+                </a>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about container" id="about">
+            <div class="about-content">
+                <img class="about-image" src="./src/images/about.png" alt="About sectionning rasmi" width="725" height="669" srcset="./src/images/about.png 1x, ./src/images/about@2x.png 2x">
+                <div class="about-main-content">
+                    <h2 class="about-content-title">Apply AI, Deep Learning and Data Sciece to solve</h2>
+                    <p class="about-content-description">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                    <a class="main-button" href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cards -->
+        <section class="cards" id="services">
+            <div class="cards-content">
+                <div class="card">
+                    <img class="bottom" src="./src/images/cards-1.svg" alt="" width="73" height="69">
+                    <h3 class="card-title">Naxly as the Winners in Global Agency Awards</h3>
+                    <p class="card-description">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+                </div>
+                <div class="card">
+                    <img src="./src/images/cards-2.svg" alt="" width="98" height="103">
+                    <h3 class="card-title">Expert Prespective Agency Awards</h3>
+                    <p class="card-description">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+                </div>
+                <div class="card">
+                    <img src="./src/images/cards-3.svg" alt="" width="98" height="103">
+                    <h3 class="card-title">Business Prespective Global Agency Awards</h3>
+                    <p class="card-description">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+                </div>
+                <div class="card">
+                    <img src="./src/images/cards-4.svg" alt="" width="98" height="103">
+                    <h3 class="card-title">Value for Results in Global Agency Awards</h3>
+                    <p class="card-description">Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.</p>
+                </div>
+                <div class="slider-points">
+                    <span class="slider-point"></span>
+                    <span class="slider-point active"></span>
+                    <span class="slider-point"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients -->
+        <section class="clients container" id="blog">
+            <div class="clients-content">
+                <h2 class="clients-title">What our clients say about our awesome solutions</h2>
+                <p class="clients-description">To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it who do not know.</p>
+                <p class="clients-description">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing .</p>
+                <p class="clients-description">Lorem ipsum is placeholder previewing layouts and visual mockups.</p>
+                <p class="clients-description">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+            </div>
+            <img src="./src/images/clients.png" alt="Bitta okaning rasmi" width="642" height="551" srcset="./src/images/clients.png 1x, ./src/images/clients@2x.png 2x">
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer container" id="contact">
+        <div class="footer-left-content">
+            <a class="footer-logo" href="#">
+                <img class="footer-logo-image" src="./src/images/logo.svg" alt="Footer logo" width="45" height="58">
+                <span class="footer-logo-text">Artificial Intelligence</span>
+            </a>
+            <p class="footer-description">Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p>
+            <div class="footer-contact">
+                <p class="footer-contact-info">
+                    <a href="mailto:company@gmail.com">
+                        <img class="footer-contact-image" src="./src/images/icon-email.svg" alt="Email" width="13" height="10">
+                        <span>company@gmail.com</span>
+                    </a>
+                </p>
+                <p class="footer-contact-info">
+                    <a href="tel:0643321233">
+                        <img class="footer-contact-image" src="./src/images/icon-phone.svg" alt="Email" width="13" height="10">
+                        <span>Phone: (064) 332-1233</span>
+                    </a>
+                </p>
+                <p class="footer-contact-info">
+                    <img class="footer-contact-image" src="./src/images/icon-location.svg" alt="Email" width="13" height="10">
+                    <span>450 Wall Street, USA, New York</span>
+                </p>
+            </div>
+        </div>
+        <div class="footer-links">
+            <ul class="footer-links-list">
+                <h3 class="footer-links-title">Information</h3>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">New Collection</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">About Store</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Contact Us</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Latest News</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Our Sitemap</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Orders History</a></li>
+            </ul>
+            <ul class="footer-links-list">
+                <h3 class="footer-links-title">Footer Menu</h3>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Instagram profile</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">New Collection</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Contact Us</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Latest News</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Terms & Conditions</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Purchase Theme</a></li>
+            </ul>
+            <ul class="footer-links-list">
+                <h3 class="footer-links-title">Useful Links</h3>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Instagram profile</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">New Collection</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Contact Us</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Latest News</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Terms & Conditions</a></li>
+                <li class="footer-links-item"><a class="footer-links-link" href="#">Purchase Theme</a></li>
+            </ul>
+        </div>
+        <div class="footer-right-content">
+            <h3 class="footer-right-title">About the store</h3>
+            <p class="footer-right-description">Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p>
+            <a class="footer-site-link" href="https://www.company.com">www.company.com</a>
+            <div class="social-links">
+                <a href="https://facebook.com">
+                    <img src="./src/images/icon-facebook.svg" alt="Facebook" width="15" height="15">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="./src/images/icon-instagram.svg" alt="Facebook" width="15" height="15">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="./src/images/icon-twitter.svg" alt="Facebook" width="15" height="15">
+                </a>
+                <a href="https://linkedin.com">
+                    <img src="./src/images/icon-linkedin.svg" alt="Facebook" width="15" height="15">
+                </a>
+                <a href="https://youtube.com">
+                    <img src="./src/images/icon-youtube.svg" alt="Facebook" width="15" height="15">
+                </a>
+            </div>
+            <div class="select-language">
+                <img src="./src/images/language.svg" alt="" width="12" height="13">
+                <span class="select-language-text">English</span>
+                <a class="select-language-image" href="#">
+                    <img src="./src/images/bottom.svg" alt="" width="10" height="5">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
