@@ -192,11 +192,17 @@ body {
 .cards {
     padding-bottom: 235px;
     background-color: #020A18;
+    padding-left: 0;
+    padding-right: 0;
+    /* margin-left: auto;
+    margin-right: auto;
+    text-align: center; */
 }
 
 .cards-content {
     position: relative;
     display: flex;
+    justify-content: center;
     gap: 30px;
 }
 
